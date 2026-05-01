@@ -2,9 +2,12 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 .hero {
-  height: 100vh;
+  min-height: 100dvh;
+  padding: 100px 20px;
   background: url('https://e0.pxfuel.com/wallpapers/967/154/desktop-wallpaper-solid-black-1920%C3%971080-black-solid-color-background-top.jpg') center/cover no-repeat;
 }
 
