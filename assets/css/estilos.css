@@ -102,3 +102,12 @@ img:hover {
 .texto a:hover {
   text-decoration: underline;
 }
+
+.navbar-toggler {
+  border: none;
+  font-size: 24px;
+}
+
+.navbar {
+  overflow: hidden;
+}
