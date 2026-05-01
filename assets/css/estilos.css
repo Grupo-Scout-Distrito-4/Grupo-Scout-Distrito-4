@@ -45,7 +45,7 @@ img:hover {
 .redes-hero {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 /* base */
@@ -64,7 +64,7 @@ img:hover {
 
 /* icono */
 .icon {
-  min-width: 30px;
+  min-width: 25px;
   text-align: center;
   font-weight: bold;
 }
@@ -113,20 +113,4 @@ img:hover {
 
 .navbar {
   overflow: hidden;
-}
-/* FIX MOBILE */
-@media (max-width: 576px) {
-  .redes-hero {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .red-expand {
-    width: 70px;
-    height: 70px;
-  }
-
-  .red-expand.active {
-    width: 160px;
-  }
 }
