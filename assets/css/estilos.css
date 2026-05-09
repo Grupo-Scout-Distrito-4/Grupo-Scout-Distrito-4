@@ -147,3 +147,22 @@ body::before {
   }
 
 }
+.img-rama {
+  width: 100%;
+  height: 350px;
+
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+
+  .img-rama {
+    height: auto;
+    max-height: 300px;
+
+    object-fit: contain;
+  }
+
+}
